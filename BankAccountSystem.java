@@ -9,6 +9,8 @@ public class BankAccountSystem extends AccountDetails{
         ArrayList<AccountDetails> list = new ArrayList<>();
 
         while (true) {
+            System.out.println("===WELCOME TO TUKA JOSHI BANKING SYSTEM===");
+
             System.out.println("1.CREATE ACCOUNT\n2.DEPOSIT MONEY IN AN ACCOUNT\n3.WITHDRAW MONEY FROM ACCOUNT\n4.PRINT DETAILS OF ALL ACCOUNT\n5.EXIT");
             int input = in.nextInt();
 
